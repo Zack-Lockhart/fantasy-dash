@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Fantasy"
+AuthUserFile "/home/gmgstag/.htpasswds/fantasy/passwd"
+require valid-user
