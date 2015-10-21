@@ -1,3 +1,9 @@
+<?php
+if(empty($_SESSION['login_user']))
+{
+	header('Location: login.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -48,7 +54,7 @@
             </div>
             <div class="top-menu">
             	<ul class="nav pull-right top-menu">
-                    <li><a class="logout" href="login.html">Logout</a></li>
+                    <li><a class="logout" href="logout.php">Logout</a></li>
             	</ul>
             </div>
         </header>
