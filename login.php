@@ -47,13 +47,10 @@ header('Location: index.php');
 		            <input id="username" type="text" class="form-control" placeholder="User ID" autofocus>
 		            <br>
 		            <input id="password" type="password" class="form-control" placeholder="Password">
-		            <label class="checkbox">
-		                <span class="pull-right">
-		                    <a data-toggle="modal" href="login.html#myModal"> Forgot Password?</a>
-		
-		                </span>
-		            </label>
-		            <input type="submit" class="button button-primary" value="Log In" id="login"/>
+					<br/>
+					<button id="login" type="button" class="btn btn-primary" aria-label="Left Align">
+					  Log In
+					</button>
 					<div id="error"></div> 
 		            <hr>		
 		        </div>	
